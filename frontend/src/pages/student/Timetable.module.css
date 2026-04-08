@@ -1,0 +1,7 @@
+.page { max-width: 700px; }
+.title { font-size: 22px; color: #1e1b4b; margin-bottom: 20px; }
+.dayTabs { display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap; }
+.dayTab { padding: 8px 18px; border: 2px solid #e2e8f0; border-radius: 20px; background: white; cursor: pointer; font-size: 14px; font-weight: 500; color: #64748b; transition: all 0.2s; }
+.dayTab:hover { border-color: #4f46e5; color: #4f46e5; }
+.dayTab.active { background: #4f46e5; border-color: #4f46e5; color: white; }
+.loading, .empty { text-align: center; padding: 60px; color: #94a3b8; background: white; border-radius: 12px; }

@@ -1,0 +1,20 @@
+.page { min-height: 100vh; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #1e1b4b 0%, #4f46e5 100%); padding: 20px; }
+.card { background: white; border-radius: 20px; padding: 40px; width: 100%; max-width: 400px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
+.logo { font-size: 48px; text-align: center; margin-bottom: 8px; }
+.title { font-size: 24px; font-weight: 700; text-align: center; color: #1e1b4b; }
+.subtitle { font-size: 14px; color: #64748b; text-align: center; margin-bottom: 24px; }
+.tabs { display: flex; gap: 8px; margin-bottom: 20px; }
+.tab { flex: 1; padding: 10px; border: 2px solid #e2e8f0; border-radius: 8px; background: white; cursor: pointer; font-size: 14px; font-weight: 500; color: #64748b; transition: all 0.2s; }
+.tab:hover { border-color: #4f46e5; color: #4f46e5; }
+.activeTab { border-color: #4f46e5; background: #4f46e5; color: white; }
+.form { display: flex; flex-direction: column; gap: 12px; }
+.input { padding: 12px 14px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 14px; outline: none; transition: border-color 0.2s; }
+.input:focus { border-color: #4f46e5; }
+.btn { padding: 13px; background: #4f46e5; color: white; border: none; border-radius: 8px; font-size: 15px; font-weight: 600; cursor: pointer; transition: background 0.2s; }
+.btn:hover { background: #4338ca; }
+.btn:disabled { background: #a5b4fc; cursor: not-allowed; }
+.link { text-align: center; margin-top: 16px; font-size: 14px; color: #64748b; }
+.link a { color: #4f46e5; font-weight: 600; text-decoration: none; }
+.fileLabel { padding: 10px 14px; border: 2px dashed #e2e8f0; border-radius: 8px; font-size: 14px; color: #64748b; cursor: pointer; text-align: center; }
+.fileLabel:hover { border-color: #4f46e5; color: #4f46e5; }
+.fileName { font-size: 13px; color: #16a34a; text-align: center; }
